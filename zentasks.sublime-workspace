@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"bob",
+				"bobsProjects"
+			],
+			[
+				"assert",
+				"assertEquals"
+			],
+			[
+				"asser",
+				"assertNull"
+			],
+			[
+				"create",
+				"createFakeUser"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
 				"i",
 				"i"
 			],
@@ -41,6 +65,46 @@
 			{
 				"buffer_size": 1920,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/User.java",
+			"settings":
+			{
+				"buffer_size": 595,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/models/Project.java",
+			"settings":
+			{
+				"buffer_size": 879,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/models/ModelsTest.java",
+			"settings":
+			{
+				"buffer_size": 2701,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "conf/test-data.yml",
+			"settings":
+			{
+				"buffer_size": 1960,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/models/Task.java",
+			"settings":
+			{
+				"buffer_size": 769,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -88,6 +152,7 @@
 	},
 	"file_history":
 	[
+		"/C/dev/play-2.1.0/documentation/manual/javaGuide/tutorials/zentasks/files/test-data.yml",
 		"/C/dev/zentasks/project/plugins.sbt",
 		"/C/dev/todolist/app/views/index.scala.html",
 		"/C/dev/blessed-are-the-cheesemakers/server.js",
@@ -119,6 +184,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -136,7 +202,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -151,8 +217,8 @@
 						"selection":
 						[
 							[
-								77,
-								77
+								85,
+								85
 							]
 						],
 						"settings":
@@ -177,13 +243,143 @@
 						"selection":
 						[
 							[
-								88,
-								88
+								1105,
+								1105
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Play 2.0/configuration.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/User.java",
+					"settings":
+					{
+						"buffer_size": 595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/Project.java",
+					"settings":
+					{
+						"buffer_size": 879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								879,
+								879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "test/models/ModelsTest.java",
+					"settings":
+					{
+						"buffer_size": 2701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "conf/test-data.yml",
+					"settings":
+					{
+						"buffer_size": 1960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/models/Task.java",
+					"settings":
+					{
+						"buffer_size": 769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								324,
+								324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
