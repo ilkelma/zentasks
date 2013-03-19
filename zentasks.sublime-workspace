@@ -52,82 +52,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/index.scala.html",
+			"file": "conf/routes",
 			"settings":
 			{
-				"buffer_size": 600,
+				"buffer_size": 387,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "conf/application.conf",
-			"settings":
-			{
-				"buffer_size": 1920,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/User.java",
-			"settings":
-			{
-				"buffer_size": 595,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/models/Project.java",
-			"settings":
-			{
-				"buffer_size": 879,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "test/models/ModelsTest.java",
-			"settings":
-			{
-				"buffer_size": 2701,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conf/test-data.yml",
-			"settings":
-			{
-				"buffer_size": 1960,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Global.java",
-			"settings":
-			{
-				"buffer_size": 325,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/models/Task.java",
-			"settings":
-			{
-				"buffer_size": 769,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/controllers/Application.java",
 			"settings":
 			{
-				"buffer_size": 311,
+				"buffer_size": 385,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/tasks/item.scala.html",
+			"file": "app/views/login.scala.html",
 			"settings":
 			{
-				"buffer_size": 311,
+				"buffer_size": 356,
 				"line_ending": "Windows"
 			}
 		}
@@ -135,9 +79,21 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 380.0,
 		"selected_items":
 		[
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -176,6 +132,22 @@
 	},
 	"file_history":
 	[
+		"/C/dev/zentasks/app/views/main.scala.html",
+		"/C/dev/zentasks/app/views/tasks/item.scala.html",
+		"/C/dev/zentasks/app/controllers/Application.java",
+		"/C/dev/zentasks/app/models/Task.java",
+		"/C/dev/zentasks/app/Global.java",
+		"/C/dev/zentasks/conf/test-data.yml",
+		"/C/dev/zentasks/test/models/ModelsTest.java",
+		"/C/dev/zentasks/app/models/Project.java",
+		"/C/dev/zentasks/app/models/User.java",
+		"/C/dev/zentasks/conf/application.conf",
+		"/C/dev/zentasks/app/views/index.scala.html",
+		"/C/dev/zentasks/app/assets/stylesheets/main.less",
+		"/C/dev/zentasks/app/assets/stylesheets/main/_breadcrumb.less",
+		"/C/dev/zentasks/app/assets/stylesheets/apps/_tasks.less",
+		"/C/dev/zentasks/app/views/html/projects/item.scala.html",
+		"/C/dev/zentasks/app/views/html/projects/group.scala.html",
 		"/C/dev/play-2.1.0/documentation/manual/javaGuide/tutorials/zentasks/files/test-data.yml",
 		"/C/dev/zentasks/project/plugins.sbt",
 		"/C/dev/todolist/app/views/index.scala.html",
@@ -226,28 +198,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/index.scala.html",
+					"file": "conf/routes",
 					"settings":
 					{
-						"buffer_size": 600,
+						"buffer_size": 387,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								528,
-								528
+								234,
+								234
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Play 2.0/Play-Scala-Template.tmLanguage"
+							"syntax": "Packages/Play 2.0/Play-Routes.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -257,23 +229,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "conf/application.conf",
+					"file": "app/controllers/Application.java",
 					"settings":
 					{
-						"buffer_size": 1920,
+						"buffer_size": 385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1105,
-								1105
+								344,
+								344
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Play 2.0/configuration.tmLanguage"
+							"syntax": "Packages/Java/Java.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -283,206 +255,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/models/User.java",
+					"file": "app/views/login.scala.html",
 					"settings":
 					{
-						"buffer_size": 595,
+						"buffer_size": 356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								69
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/models/Project.java",
-					"settings":
-					{
-						"buffer_size": 879,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								879,
-								879
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "test/models/ModelsTest.java",
-					"settings":
-					{
-						"buffer_size": 2701,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								448,
-								448
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "conf/test-data.yml",
-					"settings":
-					{
-						"buffer_size": 1960,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								205,
-								205
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/Global.java",
-					"settings":
-					{
-						"buffer_size": 325,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								320,
-								320
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/models/Task.java",
-					"settings":
-					{
-						"buffer_size": 769,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								596,
-								596
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/controllers/Application.java",
-					"settings":
-					{
-						"buffer_size": 311,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								147,
-								147
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/views/tasks/item.scala.html",
-					"settings":
-					{
-						"buffer_size": 311,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								305,
-								305
+								339,
+								339
 							]
 						],
 						"settings":
@@ -543,6 +327,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"app/controllers/Application.java"
+			]
 		],
 		"width": 0.0
 	},
