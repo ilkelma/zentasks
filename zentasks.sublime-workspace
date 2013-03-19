@@ -55,7 +55,7 @@
 			"file": "app/views/index.scala.html",
 			"settings":
 			{
-				"buffer_size": 85,
+				"buffer_size": 600,
 				"line_ending": "Unix"
 			}
 		},
@@ -100,10 +100,34 @@
 			}
 		},
 		{
+			"file": "app/Global.java",
+			"settings":
+			{
+				"buffer_size": 325,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "app/models/Task.java",
 			"settings":
 			{
 				"buffer_size": 769,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/Application.java",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/tasks/item.scala.html",
+			"settings":
+			{
+				"buffer_size": 311,
 				"line_ending": "Windows"
 			}
 		}
@@ -202,7 +226,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -210,15 +234,15 @@
 					"file": "app/views/index.scala.html",
 					"settings":
 					{
-						"buffer_size": 85,
+						"buffer_size": 600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								528,
+								528
 							]
 						],
 						"settings":
@@ -275,7 +299,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.tmLanguage"
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -301,7 +326,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.tmLanguage"
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -327,7 +353,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.tmLanguage"
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -353,7 +380,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -363,6 +392,32 @@
 				},
 				{
 					"buffer": 6,
+					"file": "app/Global.java",
+					"settings":
+					{
+						"buffer_size": 325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "app/models/Task.java",
 					"settings":
 					{
@@ -373,13 +428,66 @@
 						"selection":
 						[
 							[
-								324,
-								324
+								596,
+								596
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/controllers/Application.java",
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/views/tasks/item.scala.html",
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Play 2.0/Play-Scala-Template.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
